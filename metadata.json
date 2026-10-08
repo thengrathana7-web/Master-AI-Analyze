@@ -1,0 +1,6 @@
+{
+  "name": "Step Index Master AI",
+  "description": "Real-time Step Index market analysis and quantitative signal generation using real Deriv market data with H1-M15-M5 multi-timeframe structure, break-and-retest detection, and Telegram bot alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

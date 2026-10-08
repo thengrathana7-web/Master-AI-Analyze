@@ -1,0 +1,21 @@
+{
+  "name": "step-index-master-ai-worker",
+  "version": "1.0.0",
+  "description": "24/7 Real-Time Background Worker for Step Index Master AI",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/worker.js",
+    "dev": "tsx worker.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/ws": "^8.5.14",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  }
+}
